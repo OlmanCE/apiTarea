@@ -1,0 +1,11 @@
+En POSTMAN
+crear una solicitud POST para crear
+http://localhost:5000/productos
+{
+    "Nombre": "Producto de Ejemplo",
+    "Descripcion": "Este es un producto de ejemplo",
+    "Precio": 19.99,
+    "Stock": 100
+}
+Para eliminar, recibe el id del producto 
+http://localhost:5000/productos/1
