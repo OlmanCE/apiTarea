@@ -14,6 +14,7 @@ CREATE TABLE Factura (
     Fecha DATE NOT NULL,
     Total DECIMAL(10, 2) NOT NULL,
     Cliente VARCHAR(255) NOT NULL,
-    Estado VARCHAR(50) NOT NULL,
-    ProductoId INT REFERENCES Producto(Id) ON DELETE CASCADE
+    Estado VARCHAR(50) NOT NULL
+
 );
+    --ProductoId INT REFERENCES Producto(Id) ON DELETE CASCADE
