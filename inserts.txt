@@ -1,15 +1,13 @@
-yuEn POSTMAN
-crear una solicitud POST para crear
-http://localhost:5000/productos
-{
-    "Nombre": "Producto de Ejemplo",
-    "Descripcion": "Este es un producto de ejemplo",
-    "Precio": 19.99,
-    "Stock": 100
-}
-Para eliminar crear la solicitud DELETE, recibe el id del producto 
-<<<<<<< HEAD
-http://localhost:5000/productos/1
-=======
-http://localhost:5000/productos/1
->>>>>>> 152966f4cf3f521689564553f5bf8472a6122747
+INSERT INTO Factura (Fecha, Total, Cliente, Estado)
+VALUES ('2023-11-20', 150.50, 'Cliente1', 'Pendiente');
+INSERT INTO Factura (Fecha, Total, Cliente, Estado)
+VALUES ('2023-11-21', 200.75, 'Cliente2', 'Pagada');
+INSERT INTO Factura (Fecha, Total, Cliente, Estado)
+VALUES ('2023-11-22', 99.99, 'Cliente3', 'Pendiente');
+
+INSERT INTO Producto (Nombre, Descripcion, Precio, Stock)
+VALUES ('Producto1', 'Descripción del Producto 1', 49.99, 100);
+INSERT INTO Producto (Nombre, Descripcion, Precio, Stock)
+VALUES ('Producto2', 'Descripción del Producto 2', 79.50, 50);
+INSERT INTO Producto (Nombre, Descripcion, Precio, Stock)
+VALUES ('Producto3', 'Descripción del Producto 3', 29.75, 200);
