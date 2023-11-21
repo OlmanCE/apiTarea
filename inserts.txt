@@ -1,4 +1,4 @@
-En POSTMAN
+yuEn POSTMAN
 crear una solicitud POST para crear
 http://localhost:5000/productos
 {
@@ -8,4 +8,8 @@ http://localhost:5000/productos
     "Stock": 100
 }
 Para eliminar crear la solicitud DELETE, recibe el id del producto 
+<<<<<<< HEAD
 http://localhost:5000/productos/1
+=======
+http://localhost:5000/productos/1
+>>>>>>> 152966f4cf3f521689564553f5bf8472a6122747
